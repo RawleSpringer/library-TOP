@@ -7,7 +7,36 @@
     <link rel="stylesheet" href="index.css"">
   </head>
   <body>
-    <div>
+    <div class="wrapper">
+      <div class="edit-container">
+        <button class="new-book">NEW BOOK</button>
+        <div class="modal">
+          <div>
+            <label for="title">Title: </label>
+            <input id="title" />
+          </div>
+          <div>
+            <label for="author">Author: </label>
+            <input id="author" />
+          </div>
+          <div>
+            <label for="pages">Pages: </label>
+            <input id="pages" />
+          </div>
+          <div>
+            <label>Read Book: </label>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="read" />
+            <label for="no">No</label>
+            <input type="radio" id="no" name="read" />
+          </div>
+          <div>
+            <button class="submit">Submit</button>
+            <button class="cancel">Cancel</button>
+          </div>
+        </div>
+      </div>
+
       <div class="container"></div>
     </div>
     <script src="./index.js"></script>
