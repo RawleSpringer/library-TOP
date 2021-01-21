@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: blueviolet;
+  color: lightpink;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
