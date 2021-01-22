@@ -1,5 +1,14 @@
+body {
+  background-color: papayawhip;
+  font-family: "Yusei Magic", sans-serif;
+}
 .wrapper {
   display: flex;
+  padding: 30px;
+}
+
+h1 {
+  margin-left: 30px;
 }
 
 .container {
@@ -16,10 +25,11 @@
 .card {
   background-color: blueviolet;
   color: lightpink;
-  height: 200px;
+  height: auto;
   width: 200px;
   text-align: center;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 button {
@@ -31,8 +41,25 @@ button {
   font-weight: bold;
 }
 
-.modal {
+.add-form {
   margin-top: 30px;
   display: none;
+  width: 100%;
   /* position: fixed; */
+}
+
+.add-form > div {
+  margin-bottom: 10px;
+}
+
+.add-form > div > label {
+  font-size: 20px;
+}
+
+.add-form > div > input {
+  font-size: 20px;
+}
+
+.read-button {
+  margin-right: 5px;
 }

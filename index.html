@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css"">
   </head>
   <body>
+    <h1>Book Library</h1>
     <div class="wrapper">
       <div class="edit-container">
         <button class="new-book">NEW BOOK</button>
-        <div class="modal">
+        <div class="add-form">
           <div>
             <label for="title">Title: </label>
             <input id="title" />
@@ -26,9 +32,9 @@
           <div>
             <label>Read Book: </label>
             <label for="yes">Yes</label>
-            <input type="radio" id="yes" name="read" />
+            <input type="radio" id="yes" name="read" value="1" />
             <label for="no">No</label>
-            <input type="radio" id="no" name="read" />
+            <input type="radio" id="no" name="read" value="0" />
           </div>
           <div>
             <button class="submit">Submit</button>
